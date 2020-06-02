@@ -1,0 +1,100 @@
+# # options.debug: must the debug output be printed?
+# # options.difficulty: what is the server diffeculty?
+# # options.locale: what set of lang files must be used, supported: en_US, nl_NL, de_DE, it_IT
+# # spawnGroup: used to set withs worlds have what spawn, difficult to use. see official site for details
+options:
+  debug: false
+  difficulty: NORMAL
+  usecreativemode: false
+  usecreativemodeinv: true
+  blockEnderChestInCrea: false
+  useEndPortalHandler: false
+  useportalhandler: false
+  useWorldSpawnHandler: false
+  useWorldChatSeperator: false
+  craftbukkitHooks: true
+worlds:
+  bw:
+    seed: -3783086146277894130
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bwg:
+    seed: -4256613979523588117
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bwg1:
+    seed: 4017725475419247621
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bwg1k:
+    seed: -4617803242317873425
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: false
+  bwg2:
+    seed: 4303054769161667679
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bwg3:
+    seed: 449081840267139779
+    worldgen: NORMAL
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bwl:
+    seed: -7362448850643880360
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  bwlobby1:
+    seed: 446145864103325120
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  lobby:
+    seed: 4018679676432248228
+    worldgen: Normal
+    options: ''
+    difficulty: PEACEFUL
+    autoload: true
+  map:
+    seed: 2965871546525761751
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  mw:
+    seed: 259142966990948229
+    worldgen: Normal
+    options: ''
+    difficulty: NORMAL
+    autoload: true
+  world:
+    seed: 2417554750145635492
+    worldgen: Normal
+    options: ''
+    difficulty: HARD
+    autoload: true
+  world_nether:
+    seed: -644917550161665661
+    worldgen: Nether
+    options: ''
+    difficulty: EASY
+    autoload: true
+  world_the_end:
+    seed: 561712554367933560
+    worldgen: The_End
+    options: ''
+    difficulty: NORMAL
+    autoload: true

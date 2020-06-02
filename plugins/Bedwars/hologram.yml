@@ -1,0 +1,9 @@
+StatsHologram:
+  Text:
+  - '&6Твой &c&lBEDWARS &6профиль'
+  - '&fПобед: &a<totalWins>'
+  - '&fУбийств: &a<totalKills>'
+  - '&fВсего игр: &a<totalGamesPlayed>'
+  - '&fПоражений: &a<totalLosses>'
+  - '&fСломано кроватей: &a<totalBedsBroken>'
+  - '&fПотеряно кроватей: &a<totalBedsLost>'

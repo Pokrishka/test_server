@@ -1,0 +1,276 @@
+MySQL:
+  Enabled: false
+  Host: localhost
+  Database: TestDatabase
+  Username: root
+  Password: ''
+  Port: 3306
+BungeeCord:
+  Enabled: false
+  RandomLobbyServer:
+    Enabled: false
+    Servers:
+    - Hub
+    - Hub-1
+    - Hub-2
+  LobbyServer: Hub
+  RestartCommand: restart
+  RestartMessage: '&aСервер перезапустится через 10 секунд.'
+  MOTD:
+    Display: <gameState>,&a<inGame>/<max>
+    InGameState: '&cВ игре'
+    InWaitingState: '&aОжидание'
+IronGolemLimit: 2
+IceFishLimit: 5
+SoloShopName: '&eМагазин'
+TeamShopName: '&eМагазин'
+SoloUpgradeName: '&eУлучшения'
+TeamUpgradeName: '&eУлучшения'
+IronGolemName: <teamColor><teamName> Железный голем
+IceFishName: <teamColor><teamName> Чешуйница
+RadiusPlaceGenerator: 3.5
+EnableRejoin: true
+SeparateChatArena: true
+DelayLeave:
+  Enabled: false
+  DelayInSeconds: 3
+BlockedCommands:
+  EnableForOp: false
+  List:
+  - say
+  - gamemode
+  - mute
+FloorGeneratorLimit:
+  Iron:
+    Enabled: true
+    Amount: 128
+  Gold:
+    Enabled: true
+    Amount: 64
+  Emerald:
+    Enabled: true
+    Amount: 20
+HealthBar:
+  Enabled: true
+  Display: '&4❤'
+KitSelector:
+  InventoryName: '&eВыбор китов'
+SpectatorSettings:
+  InventoryName: '&7Настройки для зрителя'
+  NoSpeed:
+    Name: '&aНет Скорости'
+    Lore:
+    - ''
+  SpeedOne:
+    Name: '&aСкорость I'
+    Lore:
+    - ''
+  SpeedTwo:
+    Name: '&aСкорость II'
+    Lore:
+    - ''
+  SpeedThree:
+    Name: '&aСкорость III'
+    Lore:
+    - ''
+  SpeedFour:
+    Name: '&aСкорость IV'
+    Lore:
+    - ''
+SpectatorSelector:
+  InventoryName: '&7Телепорт'
+  SkullLore:
+  - '&7Health: &f<health>%'
+  - '&7Food: &f<food>%'
+  - ''
+  - '&7Щелкните правой кнопкой мыши,'
+  - '&7чтобы наблюдать!'
+TeamSelector:
+  InventoryName: '&7Выбор команды'
+  ItemName: <teamColor><teamName> команда
+  TeamJoined: '&eВы присоединились к <teamColor><teamName>.'
+  MaxPlayers: '&cКоманда <teamColor><teamName> заполнена.'
+  ItemLore:
+  - ''
+  - ''
+  - '&fИгроки: &7<currentPlayers>/<maxPlayers>'
+ArenaSign:
+  FirstLine: '&5&lBedwars'
+  SecondLine: <mode>
+  ThirdLine: <arenaName>
+  FourthLine: '&7<inGame>/<maxPlayers>'
+  InGameDisplay: '&cВ игре'
+  InWaitingDisplay: '&aОжидание'
+BedDestroyedTitle:
+  Enabled: true
+  Title: '&cКРОВАТЬ РАЗРУШЕНА!'
+  SubTitle: '&fТы больше не возродишься.!'
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+CountdownTitle:
+  Enabled: true
+  Title: '&a<seconds>'
+  SubTitle: ' '
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+StartTitle:
+  Title: '&a&lВперд!'
+  SubTitle: ' '
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+WinTitle:
+  Enabled: true
+  Title: '&6&lПобедитель'
+  SubTitle: ''
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+PartyChat:
+  CommandUsage: '&cИспользуйте команду: &a/party chat <message> чтобы отправить сообщение'
+  Format: '&a<player> : <message>'
+Trap:
+  Enabled: true
+  Title: '&cЛОВУШКА СРАБАТЫВАЕТ!'
+  SubTitle: '&fТвоя ловушка сработала.!'
+  FadeIn: 20
+  Stay: 40
+  FadeOut: 20
+  Message: '&cТвоя ловушка сработала.!'
+EmeraldUpgrade:
+  TierTwo: '&eВсе генераторы изумрудов были обновлены до &cУровеня II'
+  MaxedTier: '&eВсе генераторы изумрудов были обновлены до to &cМаксимального уровня'
+DiamondUpgrade:
+  TierTwo: '&eВсе генераторы алмазов были обновлены до &cУровня II'
+  MaxedTier: '&eВсе генераторы алмазов были обновлены до to &cМаксимального уровня'
+DiamondGenerator:
+  FirstText: '&eУровень &c<tier>'
+  SecondText: '&b&lАлмазы'
+  ThirdText: '&eСпавн через &c<spawnsIn> &eсекунд'
+  TierOneSpawnTime: 46
+  TierTwoSpawnTime: 23
+  TierThreeSpawnTime: 13
+EmeraldGenerator:
+  FirstText: '&eУровень &c<tier>'
+  SecondText: '&2&lИзумруды'
+  ThirdText: '&eСпавн через &c<spawnsIn> &eсекунд'
+  TierOneSpawnTime: 50
+  TierTwoSpawnTime: 25
+  TierThreeSpawnTime: 15
+RespawnTitle:
+  Enabled: true
+  Title: '&cТЫ УМЕР!'
+  FadeIn: 20
+  Stay: 20
+  FadeOut: 20
+  SubTitle: '&eВы будете возрождены через <seconds> секунд!'
+RespawnedTitle:
+  FadeIn: 20
+  Stay: 40
+  FadeOut: 20
+  Enabled: true
+  Title: '&aВы были возрождены.'
+  SubTitle: ''
+AllBedsDestroyed:
+  Enabled: true
+  Title: '&cВсе кровати уничтожены.!'
+  SubTitle: ''
+  FadeIn: 20
+  Stay: 40
+  FadeOut: 20
+Generators:
+  Times:
+    IronDefault: 30
+    GoldDefault: 70
+    EmeraldDefault: 350
+    RateFiftyIron: 20
+    RateFiftyGold: 35
+    RateHundredIron: 15
+    RateHundredGold: 25
+    RateTwoHundredEmerald: 200
+    RateTwoHundredIron: 10
+    RateTwoHundredGold: 20
+ModifiedChat:
+  InWaiting:
+    Enabled: true
+    Format: '&7<player>: <message>'
+  Spectator:
+    Enabled: true
+    Format: '&7[Зритель] <player>: <message>'
+  Solo:
+    Enabled: true
+    Format: '<playerTeamColor>[<playerTeam>] &7<player>: <message>'
+  Team:
+    Enabled: true
+    Format: '<playerTeamColor>[<playerTeam>] &7<player>: <message>'
+  Shout:
+    Format: '&6[КРИК] <playerTeamColor> [<playerTeam>] &7<player>: <message>'
+BedBreakCommands:
+  Enabled: true
+  Commands:
+  - say <player> сломал кровать.
+FinalKillCommands:
+  Enabled: true
+  Commands:
+  - say <player> сделал последнее убийство.
+LoserCommands:
+  Enabled: true
+  Commands:
+  - say <player> проиграл матч.
+WinnerCommands:
+  Enabled: true
+  Commands:
+  - say <player> выиграл матч.
+WhitelistedCommands:
+  Enabled: true
+  Commands:
+  - bedwars
+  - say
+PartyHelp:
+- '&a&l---------------------------------------------'
+- '&a-> /party invite <username>'
+- '&a-> /party accept <player>'
+- '&a-> /party list'
+- '&a-> /party kick <player>'
+- '&a-> /party disband'
+- '&a&l---------------------------------------------'
+YourStats:
+- '----------------------------'
+- ''
+- '&aУбийств: <kills>'
+- '&aФинальных убийств: <finalKills>'
+- '&aФинальных смертей: <finalDeaths>'
+- '&aСмертей: <deaths>'
+- '&aКроватей сломано: <bedsBroken>'
+- '&aКроватей потеряно: <bedsLost>'
+- '&aПобед: <wins>'
+- '&aПоражений: <losses>'
+- '&aВсего игр: <gamesPlayed>'
+- '----------------------------'
+EndMessage:
+- <winnerTeamColor><winnerTeam> выиграли игру!
+- <center>&a&l---------------------------------------------
+- ' '
+- <center>&f&lBedWars
+- ' '
+- <center><winnerTeamColor><winnerTeam> &7 - &7<winner>
+- ' '
+- ' '
+- <center>&e&lТоп 1 убийц&7 - <topOneName> - &7<topOneKills>
+- <center>&6&lТоп 2 убийц&7 - <topTwoName> - &7<topTwoKills>
+- <center>&c&lТоп 3 убийц&7 - <topThreeName> - &7<topThreeKills>
+- ' '
+- <center>&a&l---------------------------------------------
+StartMessage:
+- <center>&a&l---------------------------------------------
+- <center>&f&lBed Wars
+- ' '
+- <center>&e&lЗащитите свою кровать и уничтожьте вражеские кровати.
+- <center>&e&lУлучшайте себя и свою команду, собирая
+- <center>&e&lЖелезо, золото, Изумруды и Алмазы от генераторов
+- <center>&e&lдля доступа к мощным улучшениям.
+- ' '
+- <center>&a&l---------------------------------------------
+LobbyLocation: bw,-11.67322574519942,135.0,7.734108878355412,329.94806,48.677864

@@ -1,0 +1,40 @@
+# Citizens NPC Storage
+
+
+
+
+last-created-npc-id: 0
+npc:
+  '0':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTU5MTA2NjkyNTQ2NiwKICAicHJvZmlsZUlkIiA6ICIzMGE1ZWQ0NzM3MzY0ZGE2ODBkMzMzYjEwYmFiMGU3NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJnYXkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzllNmRjNGUzMzBhNTEwYWJhNGVlNWVhOTc5MWEwODdjMmQwOWUyMDJkOWI3ZGQ2YmI0ZDkzM2Q1ZDdmNTBkIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: gay
+      cached-skin-uuid: 30a5ed47-3736-4da6-80d3-33b10bab0e76
+      player-skin-name: gay
+      player-skin-signature: RjEyYzrXfFpetF28dVO2YR/6WJ/WcInvlATtr3d+imgkkA+LCIwhICfAF8bsPohzuj6xQw1bszFXKsKR349FkzMiEuOZ/T+PlIiHMBPSl2zGBpuKCG83Dnu4TuG6RRC8mRJunaMsN6Zeg8jZJDkbDEUyOluUcqBHSMxaYvfuSd2s7JMJwbq+ZZIGgrCEzxRniU9fqpj45G3iDqU/lAdzLeTIdef6ILAXoXtp1vOcT+FQ/wVEzjNDl9VBhruL7fD7goj49qwO7ftYxpopH6NGEvSgGnK2OQLghdCqZgMHGulWJ3ytDiGIGqZRf5yA1hH8nJdQOWMYm27LUT0F3mxF7bba6ydiupGMdGVnulkyhd70iJyy5BeEXDr73bSZuWPfB0/CNbixjOzzaGd3n+wz7OWHcqIh4CJdzuYafm69oyJSoLaCTVhg4lF05N2vJszo5hq0oTBWnGoVlSrkGC5Tf0P2eIg6xiTjViVIYeMBqNlHA7b0Izl0awWgkhgflK/gyPkabPjNUsRmvnLLfOuLqqpZxU8g4x8lmv8ht5tEujC3NBkDGcbarnsG5jX28W6FcxXLAQ+6aspknxlPOK6U/l+a14AS2Vaf9jYUPxMwHzb3yv1LCeflpgTEbcLxYvjfWG7PEVpCgMK/y78Zc9V8S49+kjO4RTeMfe96j4dORpY=
+    name: §4BedWars
+    uuid: 45518f5c-70ba-4e22-9573-aab147660112
+    traits:
+      location:
+        world: lobby
+        x: '116.4762'
+        y: '75.0'
+        z: '147.4944'
+        yaw: '-178.352294921875'
+        pitch: '0.0'
+      gravity:
+        enabled: false
+      lookclose:
+        range: '5.0'
+        enabled: false
+        realisticlooking: false
+      type: PLAYER
+      spawned: true
+      owner:
+        owner: ReG_MPro
+        uuid: ffbba03a-cf9e-30bf-a53a-cf2f7dfdd5ee
+    traitnames: type,gravity,owner,mounttrait,lookclose,spawned,location,equipment,inventory
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

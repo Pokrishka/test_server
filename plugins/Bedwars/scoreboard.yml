@@ -1,0 +1,66 @@
+YouDisplay: ' &7(You)'
+StartingDisplay: '&fСтарт через &a<time>'
+SearchingDisplay: '&fПоиск игроков...'
+EventDisplay:
+  DiamondUpgrade: '&fГенератор улучшен'
+  EmeraldUpgrade: '&fГенератор улучшен'
+  DiamondMaxed: '&fУлучшен на максимум'
+  EmeraldMaxed: '&fУлучшен на максимум'
+  BedDestruction: '&fКровати разрушены'
+  TimeLeft: '&fОсталось времени'
+InWaiting-Enabled: true
+InWaiting-Title: '&e BED WARS'
+InWaiting:
+  Lines:
+  - ''
+  - '&fКарта: &a<mapName>'
+  - '&fИгроков: &a<inGame>/<max>'
+  - ''
+  - <statusDisplay>
+  - ' '
+  - '&fСервер: &aBedWars122G'
+  - ''
+  - '&eMineSborka.ru'
+Game:
+  ships1-Enabled: true
+  ships1-Title: '&e BED WARS'
+  ships1:
+    Lines:
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - '&a&lG &fGreen:&f <isAliveGreen>'
+    - '&e&lY &fYellow: <isAliveYellow>'
+    - ' '
+    - '&ewww.spigotmc.org'
+  mon1-Enabled: true
+  mon1-Title: '&e BED WARS'
+  mon1:
+    Lines:
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - '&a&lG &fGreen:&f <isAliveGreen>'
+    - '&e&lY &fYellow: <isAliveYellow>'
+    - ' '
+    - '&ewww.spigotmc.org'
+  ships-Enabled: true
+  ships-Title: '&e BED WARS'
+  ships:
+    Lines:
+    - ' '
+    - '<nextEvent>:'
+    - '&a<time>'
+    - ' '
+    - '&c&lR &fRed: <isAliveRed>'
+    - '&1&lB &fBlue: <isAliveBlue>'
+    - '&a&lG &fGreen:&f <isAliveGreen>'
+    - '&e&lY &fYellow: <isAliveYellow>'
+    - ' '
+    - '&ewww.spigotmc.org'

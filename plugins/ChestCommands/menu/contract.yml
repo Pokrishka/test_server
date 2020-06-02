@@ -1,0 +1,172 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&cКонтракты'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  command: 'contract'
+
+  # open-with-item - OPTIONAL (you can remove this or
+  # set the item to 0)
+  open-with-item:
+    item-id: 0
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+exit: 
+
+  NAME: '&cЗакрыть' 
+  ID: 381
+  POSITION-X: 5
+  POSITION-Y: 5
+drinks:
+  COMMAND: 'contracts take'
+  NAME: '&eВзять контракт'
+  ID: 276
+  POSITION-X: 3
+  POSITION-Y: 3
+narkotiki:
+  COMMAND: 'contracts target'
+  NAME: '&4Цель для убийства'
+  ID: '397:3'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+vape:
+  COMMAND: 'contracts cancel'
+  NAME: '&cОтменить контракт'
+  ID: '351:14'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+steklo:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+steklo1:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+steklo2:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+steklo3:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+steklo4:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5
+steklo5:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+steklo6:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+steklo7:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3
+steklo8:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 4
+steklo9:
+  COMMAND: ''
+  NAME: '&cКонтракты'
+  ID: '160:4'
+  ENCHANTMENT: protection
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+slot-2:
+  COMMAND: 'donate'
+  NAME: '&dDonate'
+  LORE:
+  - '&7Покупай &dDonate &7и становись лучшим !'
+  ID: 297
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+slot-3:
+  COMMAND: 'donate'
+  NAME: '&dDonate'
+  LORE:
+  - '&7Покупай &dDonate &7и становись лучшим !'
+  ID: 297
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+slot-4:
+  COMMAND: 'donate'
+  NAME: '&dDonate'
+  LORE:
+  - '&7Покупай &dDonate &7и становись лучшим !'
+  ID: 297
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 5
+slot-5:
+  COMMAND: 'donate'
+  NAME: '&dDonate'
+  LORE:
+  - '&7Покупай &dDonate &7и становись лучшим !'
+  ID: 297
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1

@@ -1,0 +1,8 @@
+NPCS:
+  '1':
+    Commands:
+    - 1~~~mw goto bw~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~mw goto mw~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '0':
+    Commands:
+    - 1~~~mw goto bw~~~noPerm~~~RIGHT~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

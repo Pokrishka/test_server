@@ -1,0 +1,31 @@
+lastAccountName: ReG_MPro
+timestamps:
+  login: 1591098124064
+  lastteleport: 1591087941050
+  logout: 1591099793398
+ipAddress: 192.168.0.9
+lastlocation:
+  world: bwg2
+  x: 59.69999998807907
+  y: 82.0
+  z: 55.69999998807907
+  yaw: 183.6333
+  pitch: -3.0238788
+nickname: '1'
+logoutlocation:
+  world: bwg2
+  x: 51.972881132277024
+  y: 90.21918984538371
+  z: -16.721316618775752
+  yaw: 9.869141
+  pitch: 65.32408
+afk: false
+powertools:
+  '280':
+  - tp @a ~ ~+20 ~
+  '262':
+  - kill {player}
+  '397':
+  - craftheads
+  '330':
+  - /undo

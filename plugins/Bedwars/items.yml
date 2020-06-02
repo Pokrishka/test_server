@@ -1,0 +1,54 @@
+game-leave:
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: '&aВышел с арены'
+  Lore:
+  - ''
+spectator-leave:
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: '&aВышел с арены'
+  Lore:
+  - ''
+team-selector:
+  Enabled: true
+  Material: COMPASS
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: '&aВыберите команду'
+  Lore:
+  - ''
+kit-selector:
+  Enabled: true
+  Material: REDSTONE_COMPARATOR
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: '&eВыберите комплект'
+  Lore:
+  - ''
+teleporter:
+  Enabled: true
+  Material: COMPASS
+  Data: 0
+  Slot: 0
+  Amount: 1
+  DisplayName: '&aТелепортироваться к игроку'
+  Lore:
+  - ''
+spectator-settings:
+  Enabled: true
+  Material: REDSTONE_COMPARATOR
+  Data: 0
+  Slot: 4
+  Amount: 1
+  DisplayName: '&bНастройки зрителя&7 (щелкните правой кнопкой мыши)'
+  Lore:
+  - ''

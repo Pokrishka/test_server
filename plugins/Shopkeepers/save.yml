@@ -1,0 +1,329 @@
+'3':
+  uniqueId: f72d9c28-57b7-4550-bc19-486d38248607
+  name: ''
+  world: lobby
+  x: 215
+  y: 39
+  z: 189
+  type: admin
+  object:
+    type: villager
+    uuid: ca0636ce-e338-45f6-a26d-dfe38d9726ca
+    prof: BLACKSMITH
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 3
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+        amount: 2
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 24
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 24
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 15
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 15
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: COAL
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 3
+'4':
+  uniqueId: c303dd50-b338-4193-80a1-2b17f7f1df81
+  name: ''
+  world: lobby
+  x: 216
+  y: 39
+  z: 195
+  type: admin
+  object:
+    type: villager
+    uuid: f68bea9f-fd95-4581-968d-6f22fc7caf72
+    prof: PRIEST
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            SILK_TOUCH: 1
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            LOOT_BONUS_BLOCKS: 3
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            THORNS: 3
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            DAMAGE_ALL: 5
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            FIRE_ASPECT: 2
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_DAMAGE: 5
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOOK
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENCHANTED_BOOK
+        meta:
+          ==: ItemMeta
+          meta-type: ENCHANTED
+          stored-enchants:
+            ARROW_INFINITE: 1
+'5':
+  uniqueId: ccc56a80-f3c9-4eb9-951f-1e9153dc1e3c
+  name: ''
+  world: lobby
+  x: 215
+  y: 39
+  z: 201
+  type: admin
+  object:
+    type: villager
+    uuid: 63d30fbc-1ea6-4441-b184-7af56828dd6b
+    prof: NITWIT
+  recipes:
+    '0':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 30
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: ELYTRA
+    '1':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: TNT
+    '2':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: TOTEM
+    '3':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MONSTER_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          id: creeper
+    '4':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 3
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_INGOT
+        amount: 5
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: SPONGE
+    '5':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 32
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 64
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: MOB_SPAWNER
+    '6':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 25
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: SKULL_ITEM
+        damage: 1
+    '7':
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: EMERALD
+        amount: 15
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_INGOT
+        amount: 10
+      resultItem:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1

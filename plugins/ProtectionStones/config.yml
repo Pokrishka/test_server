@@ -1,0 +1,74 @@
+ConfVer: 1
+#Protection Stones Configuration Page
+#Protection Stones for MC 1.10 is brought to you by Dragoboss
+#Please do not edit the ConfVer number unless told to do so in update message on spigotmc.org
+
+#Specify the block you want to use to protect regions. Use names from https://goo.gl/EBM8w5
+#You can specify multiple block types, divided by comma's (NO SPACES!)
+#If you wish to have sub-block-types as pstones, you can use -#. # is the number of
+#subtype similar to the number you'd use in a /give command. I.E. stone:2 --> STONE-2
+Blocks: GOLD_BLOCK,DIAMOND_BLOCK,EMERALD_ORE 
+#If you define multiple block types be sure to define their specs below
+
+#Specify the default flags to be set when a new protected region is created..
+Flags:
+  - damage-animals deny
+  - tnt allow
+  - greeting &aВы вторглись на территорию игрока &6%player%
+  - farewell &aВы покинули территорию игрока &6%player%
+
+#List all the flags that can be set by region owners. Separate them with a comma, no space.
+Allowed Flags: tnt,greeting,farewell,damage-animals
+
+#Toggle UUID support for protected regions.
+#NOTE: This does NOT convert existing PStones to UUID Format!!
+UUID: true
+
+#Disable the use of pStones in certain worlds.
+Worlds Denied:
+    - lobby
+    - lobby_nether
+    - lobby_the_end
+
+#Protected Region Configuration, defined per block type (refer to list defined above)
+Region:
+  EMERALD_ORE:
+    X Radius: 17
+    Y Radius: 17
+    Z Radius: 17
+    Auto Hide: false
+    No Drop: false
+    Block Piston: true
+    Priority: 0
+    
+  DIAMOND_BLOCK:
+    X Radius: 12
+    Y Radius: 12
+    Z Radius: 12
+    Auto Hide: false
+    No Drop: false
+    Block Piston: true
+    Priority: 0
+    
+  #Default block type
+  GOLD_BLOCK:
+    X Radius: 7
+    #Set Y to 0 if you want it to protect from sky to bedrock.
+    Y Radius: 7
+    Z Radius: 7
+    #Hide pstone right away when placed?
+    Auto Hide: false
+    #Disable returning the block when the pstone is removed/reclaimed?
+    No Drop: false
+    #Block Piston pushing of pstones by default; recommend to set to true if "No Drop" is false, as it can be abused to gain more pstones.
+    Block Piston: true
+    #Default priority type for this block type pstone
+    Priority: 0
+  #STONE-1:    # the "-1" part would mean 'Granite' to be used as pstone, but not regular stone
+    #X Radius: 10
+    #Y Radius: 10
+    #Z Radius: 10
+    #Auto Hide: false
+    #No Drop: false
+    #Block Piston: true
+    #Priority: 1

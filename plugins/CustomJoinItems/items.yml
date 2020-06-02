@@ -1,0 +1,9 @@
+donate:
+  name: '&eПлатные услуги'
+  id: 353
+  slot: 9
+  lore:
+    - '&7Нажми чтобы узнать больше о донат привилегиях'
+  command: 'donate'
+  allow-drop: false
+  permission: 'customjoinitems.menu'

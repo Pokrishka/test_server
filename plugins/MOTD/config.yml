@@ -1,0 +1,10 @@
+Server-MOTD: 
+  Line-1: "&aroot@kali~# Сервер X)"
+  Line-2: "&4З&eа&2х&bo&1д&5и!  &fXD"
+
+JoinGame-MOTD:
+  Enabled: false
+  Messages:
+    - ''
+
+Max-Players: 200

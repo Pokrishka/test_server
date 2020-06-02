@@ -1,0 +1,24 @@
+
+menu-settings:
+  name: '&4&lТы точно готов к выживанию?'
+  rows: 3
+  command: 'rrr'
+  auto-refresh: 5
+  open-action: 
+  
+  open-with-item:
+    id:
+    left-click: false
+    right-click: true
+
+1:
+  COMMAND: 'rtp'
+  NAME: '&aВсегда готов!'
+  ID: 133
+  POSITION-X: 3
+  POSITION-Y: 2
+2:
+  NAME: '&cНет, я не готов!'
+  ID: 152
+  POSITION-X: 7
+  POSITION-Y: 2

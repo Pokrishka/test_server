@@ -1,0 +1,15 @@
+spawns: 
+  default: 
+    world: world
+    x: 18.437001303273753
+    y: 64.0
+    z: -4.581669101149172
+    yaw: 89.889626
+    pitch: 87.69739
+  newbies: 
+    world: lobby
+    x: 191.5
+    y: 38.0
+    z: 195.5
+    yaw: -0.7505493
+    pitch: -4.500002

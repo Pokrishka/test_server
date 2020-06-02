@@ -1,0 +1,116 @@
+### DonatorJoin by didjee2! ###
+
+# If false, you can remove the Join Message. (Default is like: didjee2 has joined the game!)
+Enable_Default_JoinMessage: false
+
+# If false, you can remove the default Quit Message. (Default is like: didjee2 has left the game!)
+Enable_Default_QuitMessage: false
+
+# The ranks that you wanna give a join message.
+Ranks:
+- vip
+- gold
+- diamond
+- emerald
+- lord
+- root
+
+vip:
+  # Fill in the ranks you added above over here with their message.
+  Join:
+    Enabled: true
+    Message: '&9&l⪼ &f[&eVIP&f] &e%player% &6зашел на сервер'
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+  Quit:
+    Enabled: false
+    Message: ''
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+
+gold:
+  # Fill in the ranks you added above over here with their message.
+  Join:
+    Enabled: true
+    Message: '&9&l⪼ &f[&6GOLD&f] &6%player% &6зашел на сервер'
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+  Quit:
+    Enabled: false
+    Message: ''
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+diamond:
+  Join:
+    Enabled: true
+    Message: '&9&l⪼ &f[&bDIAMOND&f] &b%player% &6зашел на сервер'
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+  Quit:
+    Enabled: false
+    Message: ''
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+emerald:
+  Join:
+    Enabled: true
+    Message: '&9&l⪼ &f[&aEMERALD&f] &a%player% &6зашел на сервер'
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+  Quit:
+    Enabled: false
+    Message: ''
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+lord:
+  Join:
+    Enabled: true
+    Message: '&9&l⪼ &f[&5&lLord&f] &5%player% &6зашел на сервер'
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+  Quit:
+    Enabled: false
+    Message: ''
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+root:
+  Join:
+    Enabled: true
+    Message: '&9&l⪼ &7[&4Owner&7] &4%player% &6зашел на сервер'
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+  Quit:
+    Enabled: false
+    Message: ''
+    Sound_Enabled: true
+    # Only if sounds is enabled.
+    Sound: IronGolem_Death
+    Firework_Enabled: true
+
+# Messages Part:
+Messages:
+  Reload: '&8&l[&a&lDonatorJoin&8&l] &7Конфиг перезагружен!'
+  Use: '&8&l[&a&lDonatorJoin&8&l] &7Use'
+  No_Perm: '&8&l[&a&lDonatorJoin&8&l] &7У тебя нет прав!'

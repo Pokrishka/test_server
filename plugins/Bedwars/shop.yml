@@ -1,0 +1,474 @@
+Purchase: '&aВы приобрели <item>.'
+AlreadyPurchased: '&cВы уже приобрели это.'
+NotEnoughResources: '&cУ вас недостаточно ресурсов.'
+EnoughResources: '&eНажмите, чтобы купить.'
+UnlockedDisplay: '&aНЕЗАПЕРТЫЙ'
+GoBack:
+  Name: '&aВернуться'
+  Lore:
+  - ''
+ItemShop:
+  InventoryName:
+    Blocks: '&7Блоки'
+    Armor: '&7Броня'
+    Melee: '&7Оружие'
+    Ranged: '&7Луки'
+    Utility: '&7Разное'
+    зельеs: '&7Зелья'
+    Tools: '&7Инструменты'
+    MainMenu: '&7Товар Магазина'
+    Potions: '&7Potions'
+  MainMenu:
+    Armor:
+      Name: '&aБроня'
+      Lore:
+      - '&fДоступный'
+      - '&7 ○ Кольчужные Сапоги'
+      - '&7 ○ Кольчужные поножи'
+      - '&7 ○ Железные Сапоги'
+      - '&7 ○ Железные поножи'
+      - '&7 ○ Азмазные сапоги'
+      - '&7 ○ Алмазные поножи'
+      - ' '
+      - '&eНажмите, чтобы просмотреть!'
+    Melee:
+      Name: '&aОружие'
+      Lore:
+      - '&fДоступный'
+      - '&7 ○ Каменный Меч'
+      - '&7 ○ Железный Меч'
+      - '&7 ○ Алмазный Меч'
+      - '&7 ○ Бита &f(Откидывание I)'
+      - ' '
+      - '&eНажмите, чтобы просмотреть!'
+    Blocks:
+      Name: '&aБлоки'
+      Lore:
+      - '&fДоступный'
+      - '&7 ○ Шерсть'
+      - '&7 ○ Песчаник'
+      - '&7 ○ Эндерняк'
+      - '&7 ○ Лестница'
+      - '&7 ○ Дубовые Доски'
+      - '&7 ○ Обсидиан'
+      - ' '
+      - '&eНажмите, чтобы просмотреть!'
+    Ranged:
+      Name: '&aЛуки'
+      Lore:
+      - '&fДоступный'
+      - '&7 ○ Arrow'
+      - '&7 ○ Лук'
+      - '&7 ○ Лук &f(сила I)'
+      - '&7 ○ Лук &f(сила I,откидывание I)'
+      - ' '
+      - '&eНажмите, чтобы просмотреть!'
+    Tools:
+      Name: '&aИнструменты'
+      Lore:
+      - '&fДоступный'
+      - '&7 ○ Ножницы '
+      - '&7 ○ Деревянная Кирка'
+      - '&7 ○ Каменная Кирка &f(Эффективность I)'
+      - '&7 ○ Железная Кирка &f(Эффективность II)'
+      - '&7 ○ Алмазная Кирка &f(Эффективность III)'
+      - '&7 ○ Алмазный Топор &f(Эффективность II)'
+      - ' '
+      - '&eНажмите, чтобы просмотреть!'
+    Utility:
+      Name: '&aРазное'
+      Lore:
+      - '&fДоступный'
+      - '&7 ○ Золотое яблоко'
+      - '&7 ○ Ледяная рыба'
+      - '&7 ○ Железное Яйцо Голема'
+      - '&7 ○ Фаерболл'
+      - '&7 ○ Динамит'
+      - '&7 ○ Эндер перл'
+      - '&7 ○ Ведро Воды'
+      - ' '
+      - '&eНажмите, чтобы просмотреть!'
+    Potions:
+      Name: '&aЗелья'
+      Lore:
+      - '&fДоступный'
+      - '&7 ○ Скорость II зелье (45 секунд)'
+      - '&7 ○ Прыжок V зелье (45 секунд)'
+      - '&7 ○ Невидимость зелье (30 секунд)'
+      - ' '
+      - '&eНажмите, чтобы просмотреть!'
+  ChainArmor:
+    Name: '&cПостоянная Броня'
+    Lore:
+    - '&7Вещи: '
+    - '&7 ○ Кольчужные Сапоги x1'
+    - '&7 ○ Кольчужные Поножи x1'
+    - ' '
+    - '&7Стоимость: &f40 железа'
+    - ' '
+    - '&7&oТы не потеряешь это после смерти.!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 40
+  IronArmor:
+    Name: '&cПостоянная Железная Броня'
+    Lore:
+    - '&7Вещи: '
+    - '&7 ○ Железные сапоги x1'
+    - '&7 ○ Железные поножи x1'
+    - ' '
+    - '&7Стоимость: &612 золота'
+    - ' '
+    - '&7&oТы не потеряешь это после смерти.!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  DiamondArmor:
+    Name: '&cПостоянная алмазная броня'
+    Lore:
+    - '&7Вещи: '
+    - '&7 ○ Алмазные сапоги x1'
+    - '&7 ○ Алмазные поножи x1'
+    - ' '
+    - '&7Стоимость: &26 изумрудов'
+    - ' '
+    - '&7&oТы не потеряешь это после смерти.!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 6
+  Wool:
+    Name: '&cШерсть'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Шерсть x16'
+    - ' '
+    - '&7Стоимость: &f4 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 4
+  Sandstone:
+    Name: '&cПесчаник'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Песчаник x16'
+    - ' '
+    - '&7Стоимость: &f12 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 16
+  EndStone:
+    Name: '&cЭндерняк'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Эндерняк x12'
+    - ' '
+    - '&7Стоимость: &f24 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 24
+  OakWood:
+    Name: '&cДубовые Доски'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Дубовые Доски x16'
+    - ' '
+    - '&7Стоимость: &64 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 4
+  Obsidian:
+    Name: '&cОбсидиан'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Обсидиан x4'
+    - ' '
+    - '&7Стоимость: &24 изумруда'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 4
+  Ladders:
+    Name: '&cЛестница'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Лестница x16'
+    - ' '
+    - '&7Стоимость: &f4 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 16
+  Arrow:
+    Name: '&cСтрелы'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Стрелы x8'
+    - ' '
+    - '&7Стоимость: &62 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 2
+  Bow:
+    Name: '&cЛук'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Лук x1'
+    - ' '
+    - '&7Стоимость: &612 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  BowPowerOne:
+    Name: '&cЛук (Сила I)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Лук (Сила I) x1'
+    - ' '
+    - '&7Стоимость: &624 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 24
+  BowPowerOnePunchOneName: '&cЛук (сила I,отбрасывание I)'
+  BowPowerOnePunchOneLore:
+  - '&7Вещи:'
+  - '&7 ○ &cЛук (сила I,отбрасывание I) x1'
+  - ' '
+  - '&7Стоимость: &26 изумрудов'
+  - ' '
+  - <hasEnoughResources>
+  BowPowerOnePunchOne:
+    Price-Material: EMERALD
+    Price: 6
+  WoodenPickaxe:
+    Name: '&cДеревянная Кирка'
+    Price-Material: IRON_INGOT
+    Price: 10
+  WoodPickaxe:
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Деревянная Кирка x1'
+    - ' '
+    - '&7Стоимость: &f10 железа'
+    - ' '
+    - <hasEnoughResources>
+  Shears:
+    Name: '&cНожницы Постоянные'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Ножницы x1'
+    - ' '
+    - '&7Стоимость: &f30 железа'
+    - ' '
+    - '&7&oТы не потеряешь это после смерти.!'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 30
+  StonePickaxe:
+    Name: '&Каменная Кирка (Эффективность I)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Каменная Кирка (Эффективность I) x1'
+    - ' '
+    - '&7Стоимость: &f20 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 20
+  IronPickaxe:
+    Name: '&cЖелезная кирка (Эффективность II)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Железная кирка (Эффективность II) x1'
+    - ' '
+    - '&7Стоимость: &68 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 8
+  DiamondPickaxe:
+    Name: '&cАлмазная кирка (Эффективность II)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Алмазная кирка (Эффективность II) x1'
+    - ' '
+    - '&7Стоимость: &612 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  DiamondAxe:
+    Name: '&cАлмазный топор (Эффективность II)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Алмазный топор (Эффективность II) x1'
+    - ' '
+    - '&7Стоимость: &612 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 12
+  SpeedTwo:
+    Name: '&cСкорость II зелье (45 секунд)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Скорость II зелье (45 секунд) x1'
+    - ' '
+    - '&7Стоимость: &21 изумрудов'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 1
+  JumpFive:
+    Name: '&cПрыжок V зелье (45 секунд)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Прыжок V зелье (45 секунд) x1'
+    - ' '
+    - '&7Стоимость: &21 изумрудов'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 1
+  Invisibility:
+    Name: '&cНевидимость зелье (30 секунд)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Невидимость зелье (30 секунд) x1'
+    - ' '
+    - '&7Стоимость: &21 изумрудов'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 1
+  GoldenApple:
+    Name: '&cЗолотое яблоко'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ золотаen Apple x1'
+    - ' '
+    - '&7Стоимость: &63 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 3
+  IronEgg:
+    Name: '&cЯйцо железного голема'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ йцо железного голема x1'
+    - ' '
+    - '&7Стоимость: &f150 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 150
+  Enderpearl:
+    Name: '&cЭндер перл'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Эндер перл x1'
+    - ' '
+    - '&7Стоимость: &24 изумрудов'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 4
+  WaterBucket:
+    Name: '&cВедро Воды'
+    Price-Material: EMERALD
+    Price: 1
+  WaterBucketLore:
+  - '&7Вещи:'
+  - '&7 ○ Ведро Воды x1'
+  - ' '
+  - '&7Стоимость: &21 изумрудов'
+  - ' '
+  - <hasEnoughResources>
+  Fireball:
+    Name: '&cФаерболл'
+    Price-Material: IRON_INGOT
+    Price: 50
+  FireballLore:
+  - '&7Вещи:'
+  - '&7 ○ Фаерболл x1'
+  - ' '
+  - '&7Стоимость: &f50 железа'
+  - ' '
+  - <hasEnoughResources>
+  TNT:
+    Name: '&cДинамит'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Динамит x1'
+    - ' '
+    - '&7Стоимость: &65 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 5
+  SnowBall:
+    Name: '&cЛедяная рыба'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Ледяная рыба x1'
+    - ' '
+    - '&7Стоимость: &f50 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 50
+  StoneSword:
+    Name: '&cКаменный меч'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Каменный меч '
+    - ' '
+    - '&7Стоимость: &f10 железа'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: IRON_INGOT
+    Price: 10
+  IronSword:
+    Name: '&cЖелезный меч'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Железный меч'
+    - ' '
+    - '&7Стоимость: &67 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 7
+  DiamondSword:
+    Name: '&cАлмазный меч'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Алмазный меч'
+    - ' '
+    - '&7Стоимость: &24 изумрудов'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: EMERALD
+    Price: 4
+  Stick:
+    Name: '&cБита (Откидывание I)'
+    Lore:
+    - '&7Вещи:'
+    - '&7 ○ Бита (Откидывание I)'
+    - ' '
+    - '&7Стоимость: &610 золота'
+    - ' '
+    - <hasEnoughResources>
+    Price-Material: GOLD_INGOT
+    Price: 10

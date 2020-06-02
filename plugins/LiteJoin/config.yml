@@ -1,0 +1,96 @@
+# 
+# Plugin made by LITEFINE
+# Help: https://www.spigotmc.org/resources/litejoin-hidestream-replacing.25771/
+Settings:
+  PlayerJoinMessage:
+    display: false
+    displayIfHidden: false
+    message: '&a%player% &fjoin the game.'
+  PlayerQuitMessage:
+    display: false
+    displayIfHidden: false
+    message: '&a%player% &fleft the game.'
+  PlayerKickMessage:
+    display: false
+    displayIfHidden: false
+    message: '&a%player% &fkicked from the game.'
+  ClearInventory:
+    enable: false
+    needPerms: false
+    sendMessage: false
+    message: '&a[LJ] &fYour inventory was wiped clean.'
+  ResetExperience:
+    enable: false
+    needPerms: false
+    sendMessage: false
+    message: '&a[LJ] &fYour exp level was wiped clean.'
+  Heal:
+    enable: false
+    needPerms: false
+    sendMessage: false
+    message: '&a[LJ] &fYou were healed.'
+  Feed:
+    enable: false
+    needPerms: false
+    sendMessage: false
+    message: '&a[LJ] &fYour hunger has been satisfied.'
+  WelcomeMessage:
+    enable: true
+    needPerms: false
+    message: Игрок &e%player%&f! &fвошёл на сервер!
+  DonaterJoinMessage:
+    display: false
+    displayIfHidden: false
+    message: '%prefix%%name%&r litejoin the game.'
+  TitleWelcome:
+    enable: false
+    needPerms: false
+    firstLine: '&bHey %player%'
+    subLine: This is LiteJoin plugin!
+    fadeIn: 20
+    stayTime: 50
+    fadeOut: 20
+  ActionBarWelcome:
+    enable: false
+    needPerms: false
+    message: Hi &a%player%
+  DamageProtection:
+    enable: false
+    needPerms: false
+    time: 5
+    message: '&a[LJ] &fYou are protected from damage for &a5&f seconds!'
+    endMessage: '&a[LJ] &fYour protection time is &eOVER'
+  Flight:
+    enable: false
+    needPerms: true
+    justAllowRise: false
+    sendMessage: true
+    message: '&a[LJ] &fFlight enabled for you.'
+  Glow:
+    enable: false
+    needPerms: false
+    sendMessage: true
+    message: '&a[LJ] &fNow you glow.'
+  Concealment:
+    enable: false
+    needPerms: true
+    sendMessage: true
+    message: '&a[LJ] &fYou were hidden from players.'
+  JoinEffects:
+    enable: false
+    removeOldEffects: true
+    needPerms: false
+    effects:
+    - SPEED 1
+  JoinParticles:
+    enable: false
+    needPerms: true
+    particle: CRIT
+    amount: 40
+    offsetX: 0.0
+    offsetY: 2.0
+    offsetZ: 0.0
+  Other:
+    enableDeathMessages: true
+    spawnTpOnJoin: false
+Spawn: {}

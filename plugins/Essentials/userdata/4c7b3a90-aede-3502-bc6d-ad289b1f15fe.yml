@@ -1,0 +1,26 @@
+lastAccountName: jackdog8123
+timestamps:
+  login: 1591088724241
+  logout: 1591090756427
+  lastteleport: 1591090672089
+ipAddress: 188.19.252.23
+lastlocation:
+  world: bwg2
+  x: 61.09813513688431
+  y: 90.33077267820909
+  z: -14.3840911767496
+  yaw: -70.09284
+  pitch: 34.183197
+logoutlocation:
+  world: world
+  x: 11.366613896678091
+  y: 74.24384351191411
+  z: -4.2246581185624645
+  yaw: -109.021065
+  pitch: 24.050606
+afk: false
+powertools:
+  '2':
+  - kill ReG_MPro
+  '278':
+  - kick ReG_MPro

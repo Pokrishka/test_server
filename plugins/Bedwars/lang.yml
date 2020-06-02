@@ -1,0 +1,68 @@
+no-permission: '&cУ вас нет разрешения.'
+game-null: '&cЭта игра не существует.'
+game-full: '&cЭта арена заполнена.'
+already-in-game: '&cВы уже в игре.'
+game-is-started: '&cЭта арена в игре.'
+game-starting-in: '&eИгра начинается через <seconds> секунд.'
+start-cancelled: '&cНедостаточно игроков, старт отменен.'
+player-joined-in-game: '&7<player>&e присоединился к (&b<inGame>&e/&b<max>&e)!'
+player-left-in-game: '&7<player>&e вышел из (&b<inGame>&e/&b<max>&e)!'
+not-in-game: '&cТы не участвуешь ни в одной игре..'
+member-leave: '&cДругой член вашей команды покинул игру.'
+team-eliminated: '&aКоманда <teamColor><team> &aбыла ликвидирована'
+player-disconnected: <teamColor><player> &eотключился.
+player-rejoin: <teamColor><player> &eподключился.
+cant-rejoin: '&cТы не можешь вернуться на эту арену..'
+player-joined-in-party: '&a<player> вступил в компанию.'
+party-join: '&aВы присоединились к <player> компании.'
+invite-yourself-party: '&cТы не можешь пригласить себя..'
+only-leader-can-invite: '&cТолько лидер компании может приглашать игроков.'
+player-in-party: '&cИгрок <player> уже в компании.'
+party-request-sent: '&1Приглашение отправлено <player>'
+party-invite-expired: '&cВаше приглашение истекло.'
+cant-accept-yourselft: '&cТы не можешь принять приглашение в компанию.'
+no-party-request: '&cУ тебя нет никакой компании.'
+party-request-received: '&aЗапрос стороны от <player>.Нажмите здесь, чтобы принять
+  его.'
+not-in-party: '&cТы ни в какой компании'
+party-leave: '&eИгрок <player> ушел из компании.'
+party-disband-by-leader: '&eИгрок был изгнан лидером.'
+party-disband-by-size: '&eКомпания распалась из-за размера.'
+player-left-from-party: '&e<player> покинул компанию.'
+only-leader-can-kick: '&cТолько лидер может выгнать игроков из компании.'
+not-in-your-party: '&e<player> не в вашей компании.'
+player-kicked-from-party: '&eИгрок <player> был выгнан.'
+party-kick: '&eТебя выгнали из компании <player>.'
+only-leader-can-disband: '&cТолько лидер партии может распустить партию.'
+player-killed: <playerTeamColor><player>(<playerTeam>) убитый <killerTeamColor><killer>(<killerTeam>) <isFinalKill>!
+player-knocked-void: <playerTeamColor><player> был сбит в пустоту <damagerTeamColor><damager> <isFinalKill>!
+player-fall-in-void: <playerTeamColor><player> упал в пустоту.
+player-died: <playerTeamColor><player> умер.
+player-killed-by-tnt: <playerTeamColor><player> был убит <killerTeamColor><killer> динамитом <isFinalKill>!
+player-killed-by-arrow: <playerTeamColor><player> был убит <killerTeamColor><killer> из лука <isFinalKill>!
+player-killed-by-fireball: <playerTeamColor><player> был убит <killerTeamColor><killer> из лука <isFinalKill>!
+player-killed-by-golem: <playerTeamColor><player> был убит <golemTeamColor><golemTeam> големом.
+player-killed-by-silverfish: <playerTeamColor><player> был убит <silverfishTeamColor><silverfishTeam> чешуйницей.
+player-killed-himself: <playerTeamColor><player> убил себя <isFinalKill>!
+player-fell-high-place: <playerTeamColor><player> упал с высоты.<isFinalKill>
+final-kill-display: '&b&lФИНАЛЬНОЕ УБИЙСТВО'
+bed-destroyed: <teamColor><team> кровать была разрушена <player>.
+destroy-your-bed: '&cВы не можете уничтожить свою кровать.'
+destroy-not-placed-block: '&cВы можете только уничтожить размещенные блоки.'
+iron-golem-limit: '&cУ вас больше голема, чем лимит.'
+silverfish-limit: '&cУ вас больше чешуйниц, чем лимит.'
+player-offline: '&cОшибка! Этот игрок не онлайн.'
+join-command-usage: '&eИспользуйте команду: &a/bedwars join <arenaName> для входа
+  на арену.'
+skin-doesnt-exist: '&cСкин <skinName> не существует.'
+no-permission-for-skin: '&cУ вас нет разрешения использовать скин <skinName>.'
+your-skin-set: '&aВаш магазин скинов был установлен на <skinName>.'
+player-skin-set: '&aИгрок <playerName> имеет скин <skinName>.'
+gametype-null: '&cЭтот тип игры не существует.'
+player-not-in-game: '&cИгрок <playerName> is not in game.'
+cant-find-any-arena: '&cАрена не найдена.'
+teleported-to: '&aТебя телепортировали к &7<player>.'
+shout-missing-arguments: '&cНедостаточно аргументов! Используйте: /shout <message>'
+delay-leave: '&cВы должны подождать 3 секунды, прежде чем выйти.'
+outside-of-arena: '&cТы за пределами арены..'
+selected-kit: '&eВы выбрали кит <kitDisplayName>.'

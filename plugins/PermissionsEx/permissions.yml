@@ -1,0 +1,199 @@
+groups:
+  user:
+    permissions:
+    - ancientgates.use.*
+    - ancientgates.use
+    - auctionhouse.user.command
+    - auctionhouse.user
+    - auctionhouse.use
+    - modifyworld.*
+    - essentials.sethome.bed
+    - chatex.chat.global
+    - chatex.allowchat
+    - essentials.motd
+    - essentials.balance
+    - essentials.pay
+    - essentials.kits.start
+    - essentials.kit
+    - essentials.warp.list
+    - essentials.spawn
+    - essentials.warp
+    - essentials.warps.*
+    - essentials.rules
+    - scoreboardstats.use
+    - chestcommands.open.*
+    - chestcommands.*
+    - chestcommands.open.rtp
+    - nocheatplus.checks.chat.text
+    - customjoinitems.menu
+    - randomtp.tp
+    - skinsrestorer.playercmds
+    - nofall.use
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.info
+    - protectionstones.members
+    - protectionstones.owners
+    - protectionstones.home
+    - protectionstones.limit.3
+    - protectionstones.unhide
+    - protectionstones.hide
+    options:
+      default: true
+      prefix: '&8[&bИгрок&8] &3'
+  vip:
+    options:
+      default: false
+      prefix: '&7[&eVIP&7] &e'
+      suffix: ''
+    inheritance:
+    - user
+    permissions:
+    - chatex.chat.global
+    - chatex.chat.color
+    - essentials.joinfullserver
+    - essentials.kits.vip
+    - essentials.kit
+    - scoreboardstats.use
+    - chestcommands.open.*
+    - nocheatplus.checks.chat.text
+    - customjoinitems.menu
+    - randomtp.tp
+    - skinsrestorer.playercmds
+    - nofall.use
+    - scavenger.level
+    - scavenger.exp
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.info
+    - protectionstones.members
+    - protectionstones.owners
+    - protectionstones.limit.4
+  gold:
+    options:
+      default: false
+      prefix: '&7[&6GOLD&7] &6'
+      suffix: ''
+    inheritance:
+    - vip
+    permissions:
+    - essentials.kits.gold
+    - essentials.kit
+    - essentials.feed
+    - scoreboardstats.use
+    - chestcommands.open.*
+    - nocheatplus.checks.chat.text
+    - customjoinitems.menu
+    - randomtp.tp
+    - skinsrestorer.playercmds
+    - nofall.use
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.info
+    - protectionstones.members
+    - protectionstones.owners
+    - protectionstones.limit.5
+    - scavenger.level
+    - scavenger.exp
+  diamond:
+    options:
+      default: false
+      prefix: '&7[&bDIAMOND&7] &b'
+      suffix: ''
+    inheritance:
+    - gold
+    permissions:
+    - essentials.kits.diamond
+    - essentials.kit
+    - essentials.feed
+    - essentials.heal
+    - scoreboardstats.use
+    - chestcommands.open.*
+    - nocheatplus.checks.chat.text
+    - customjoinitems.menu
+    - randomtp.tp
+    - skinsrestorer.playercmds
+    - nofall.use
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.info
+    - protectionstones.members
+    - protectionstones.owners
+    - protectionstones.limit.6
+    - scavenger.level
+    - scavenger.exp
+  emerald:
+    options:
+      default: false
+      prefix: '&7[&aEMERALD&7] &a'
+      suffix: ''
+    inheritance:
+    - diamond
+    permissions:
+    - essentials.kits.emerald
+    - essentials.kit
+    - essentials.feed
+    - essentials.heal
+    - essentials.repair
+    - essentials.ptime
+    - scoreboardstats.use
+    - chestcommands.open.*
+    - nocheatplus.checks.chat.text
+    - customjoinitems.menu
+    - randomtp.tp
+    - skinsrestorer.playercmds
+    - nofall.use
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.info
+    - protectionstones.members
+    - protectionstones.owners
+    - protectionstones.limit.7
+    - scavenger.level
+    - scavenger.exp
+  lord:
+    options:
+      default: false
+      prefix: '&7[&5Lord&7] &5'
+      suffix: ''
+    inheritance:
+    - emerald
+    permissions:
+    - essentials.kits.lord
+    - essentials.sethome
+    - essentials.home
+    - essentials.kit
+    - essentials.feed
+    - essentials.heal
+    - scoreboardstats.use
+    - chestcommands.open.*
+    - nocheatplus.checks.chat.text
+    - customjoinitems.menu
+    - randomtp.tp
+    - skinsrestorer.playercmds
+    - nofall.use
+    - protectionstones.create
+    - protectionstones.destroy
+    - protectionstones.info
+    - protectionstones.members
+    - protectionstones.owners
+    - protectionstones.limit.8
+    - scavenger.level
+    - scavenger.exp
+  root:
+    options:
+      default: false
+      prefix: '&7(&4Owner&7) &4'
+      suffix: ''
+    permissions:
+    - '*'
+schema-version: 1
+users:
+  ffbba03a-cf9e-30bf-a53a-cf2f7dfdd5ee:
+    options:
+      prefix: '&4[Admin]&3ReG_MPro'
+      name: ReG_MPro
+  4c7b3a90-aede-3502-bc6d-ad289b1f15fe:
+    options:
+      prefix: '&a[Builder]&b'
+      name: jackdog8123
